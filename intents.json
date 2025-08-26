@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "hy"],
+      "responses": ["Hello! 👋 How can I help you with bus information today?"]
+    },
+    {
+      "tag": "bus_timing",
+      "patterns": ["bus timing", "when is the next bus", "bus schedule", "timing of buses", "at what time bus comes"],
+      "responses": ["🚌 Buses run every 30 minutes from 6 AM to 10 PM."]
+    },
+    {
+      "tag": "bus_fares",
+      "patterns": ["bus fare", "ticket price", "how much is bus fare", "bus cost", "bus ka kiraya"],
+      "responses": ["💰 The bus fare is ₹20 for local and ₹50 for express routes."]
+    },
+    {
+      "tag": "bus_routes",
+      "patterns": ["bus routes", "which buses go to", "bus route", "bus kahan jati hai", "bus kaha se kaha tak"],
+      "responses": ["📍 Bus 101 → City Center, Bus 202 → Railway Station, Bus 303 → Airport."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "shukriya"],
+      "responses": ["You're welcome! 😊 Happy to help."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "exit"],
+      "responses": ["Goodbye! 👋 Have a safe journey."]
+    }
+  ]
+}
